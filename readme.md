@@ -1,11 +1,11 @@
 
 
-# Project 3 | Justice ![Project 3](https://img.shields.io/badge/Project%20-3-green) ![bootcamp](https://img.shields.io/badge/JS-Bootcamp-yellow)
+# Project 3 | Law Home Page ![Project 3](https://img.shields.io/badge/Project%20-3-green) ![bootcamp](https://img.shields.io/badge/JS-Bootcamp-yellow)
 
 ### By Thalloju Shivaram
 
 
-## 🔗Live Link -: [LawHomePage]()
+## 🔗Live Link -: [LawHomePage](https://lawhom.netlify.app/)
  
 
 ---
