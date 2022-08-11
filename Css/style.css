@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.background-color{
+    background-color: #2b2922;
+    width: 100%;
+    height: 350px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 10%;
+}
+.navbar .nav-logo{
+    width: 100px;
+}
+.navbar .grow{
+    position: relative;
+    right: -250px;
+}
+.navbar .grow .list-item{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar .grow .list-item .list{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px 20px;
+    font-weight: 200;
+}
+.navbar .grow .list-item .list:first-child{
+    font-weight: 500;
+}
+.background-color .navbar .nav-button{
+    font-size: 15px;
+    padding: 15px 10px;
+    color: #796d2f;
+    border: 1px solid #544d29;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.background-color .description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 120px;
+    
+    
+}
+.background-color .description .left{
+    flex: 1;
+}
+.background-color .description .right{
+    flex: 1;
+}
+.background-color .description .left .left-heading{
+    color: #ffffff;
+    font-size: 65px;
+    line-height: 70px;
+  
+}
+.background-color .description .right .right-heading{
+    color: #ffffff;
+    width: 321px;
+    font-weight: 100;
+    line-height: 28px;
+}
+.image{
+    height: 300px;
+}
+.image img{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.arrow-btns{
+    background-color: #2b2922;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+.arrow-btns div:first-child {
+    background-color: #39372d;
+    height: 75px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-btns div:last-child {
+    background-color: #a08f36;
+    height: 75px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-btns div:first-child span {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #a08f36;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-btns div:last-child span {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
